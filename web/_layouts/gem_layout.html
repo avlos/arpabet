@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.title | default: site.repository_name }} by {{ site.owner_name }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>{{ site.title | default: site.repository_name }}</h1>
+        <p>{{ site.description | default: site.project_tagline }}</p>
+        <p class="view"><a href="{{ site.repository_url }}">View the Project on Github</a></p>
+        {% if site.coverage_url %}
+          <p class="view"><a href="{{ site.coverage_url }}">View coverage</a></p>
+        {% endif %}
+        <ul>
+          <li><a href="{{ site.zip_url }}">Download <strong>zip</strong></a></li>
+          <li><a href="{{ site.tar_url }}">Download <strong>tar</strong></a></li>
+          <li><a href="{{ site.tar_gz_url }}">Download <strong>tar.gz</strong></a></li>
+        </ul>
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="{{ site.owner_url }}">{{ site.owner_name }}</a></p>
+      </footer>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+
+  {% if site.google_analytics %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+    </script>
+  {% endif %}
+  </body>
+</html>

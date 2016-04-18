@@ -1,0 +1,19 @@
+title: arpabet
+email: operations@avlos.io
+description: >
+  a gem to parse arpabet
+baseurl: "/arpabet"
+url: "https://gems.avlos.tech/arpabet/"
+show_downloads: true
+repository_url: https://github.com/avlos/arpabet
+coverage_url: coverage
+owner_url: https://git.avlos.io/gems/arpabet/repository/archive.zip?ref=master
+zip_url: https://git.avlos.io/gems/arpabet/repository/archive.zip?ref=master
+tar_gz_url: https://git.avlos.io/gems/arpabet/repository/archive.tar.gz?ref=master
+tar_bz_url: https://git.avlos.io/gems/arpabet/repository/archive.tar.bz2?ref=master
+tar_url: https://git.avlos.io/gems/arpabet/repository/archive.tar?ref=master
+owner_name: Avlos
+owner_url: https://avlos.io
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal

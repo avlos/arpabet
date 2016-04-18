@@ -1,0 +1,226 @@
+{
+  "AO": {
+    "ipa": "ɔ",
+    "unicode": "&#596;"
+  },
+  "AA": {
+    "ipa": "ɑ",
+    "unicode": "&#593;"
+  },
+  "IY": {
+    "ipa": "i",
+    "unicode": "i"
+  },
+  "UW": {
+    "ipa": "u",
+    "unicode": "u"
+  },
+  "EH": {
+    "ipa": "ɛ",
+    "unicode": "&#603;"
+  },
+  "IH": {
+    "ipa": "ɪ",
+    "unicode": "&#618;"
+  },
+  "UH": {
+    "ipa": "ʊ",
+    "unicode": "&#650;"
+  },
+  "AH(AH1)": {
+    "ipa": "ʌ",
+    "unicode": "&#652;"
+  },
+  "AH(AH0)": {
+    "ipa": "ə",
+    "unicode": "&#601;"
+  },
+  "AX(AX0)": {
+    "ipa": "ə",
+    "unicode": "&#601;"
+  },
+  "AE": {
+    "ipa": "æ",
+    "unicode": "&#230;"
+  },
+  "EY": {
+    "ipa": "eɪ",
+    "unicode": "e&#618;"
+  },
+  "AY": {
+    "ipa": "aɪ",
+    "unicode": "a&#618;"
+  },
+  "OW": {
+    "ipa": "oʊ",
+    "unicode": "o&#650;"
+  },
+  "AW": {
+    "ipa": "aʊ",
+    "unicode": "a&#650;"
+  },
+  "OY": {
+    "ipa": "ɔɪ",
+    "unicode": "&#596;&#618;"
+  },
+  "ER": {
+    "ipa": "ɝ",
+    "unicode": "&#605;"
+  },
+  "AXR": {
+    "ipa": "ɚ",
+    "unicode": "&#602;"
+  },
+  "EH R": {
+    "ipa": "ɛr",
+    "unicode": "&#603;r"
+  },
+  "UH R": {
+    "ipa": "ʊr",
+    "unicode": "&#650;r"
+  },
+  "AO R": {
+    "ipa": "ɔr",
+    "unicode": "&#596;r"
+  },
+  "AA R": {
+    "ipa": "ɑr",
+    "unicode": "&#593;r"
+  },
+  "IH R": {
+    "ipa": "ɪr",
+    "unicode": "&#618;r"
+  },
+  "IY R": {
+    "ipa": "ɪr",
+    "unicode": "&#618;r"
+  },
+  "AW R": {
+    "ipa": "aʊr",
+    "unicode": "a&#650;r"
+  },
+  "P": {
+    "ipa": "p",
+    "unicode": "p"
+  },
+  "B": {
+    "ipa": "b",
+    "unicode": "b"
+  },
+  "T": {
+    "ipa": "t",
+    "unicode": "t"
+  },
+  "D": {
+    "ipa": "d",
+    "unicode": "d"
+  },
+  "K": {
+    "ipa": "k",
+    "unicode": "k"
+  },
+  "G": {
+    "ipa": "ɡ",
+    "unicode": "&#609;"
+  },
+  "CH": {
+    "ipa": "tʃ",
+    "unicode": "t&#643;"
+  },
+  "JH": {
+    "ipa": "dʒ",
+    "unicode": "d&#658;"
+  },
+  "F": {
+    "ipa": "f",
+    "unicode": "f"
+  },
+  "V": {
+    "ipa": "v",
+    "unicode": "v"
+  },
+  "TH": {
+    "ipa": "θ",
+    "unicode": "&#952;"
+  },
+  "DH": {
+    "ipa": "ð",
+    "unicode": "&#240;"
+  },
+  "S": {
+    "ipa": "s",
+    "unicode": "s"
+  },
+  "Z": {
+    "ipa": "z",
+    "unicode": "z"
+  },
+  "SH": {
+    "ipa": "ʃ",
+    "unicode": "&#643;"
+  },
+  "ZH": {
+    "ipa": "ʒ",
+    "unicode": "&#658;"
+  },
+  "HH": {
+    "ipa": "h",
+    "unicode": "h"
+  },
+  "M": {
+    "ipa": "m",
+    "unicode": "m"
+  },
+  "EM": {
+    "ipa": "m̩",
+    "unicode": "m&#809;"
+  },
+  "N": {
+    "ipa": "n",
+    "unicode": "n"
+  },
+  "EN": {
+    "ipa": "n̩",
+    "unicode": "n&#809;"
+  },
+  "NG": {
+    "ipa": "ŋ",
+    "unicode": "&#331;"
+  },
+  "ENG": {
+    "ipa": "ŋ̍",
+    "unicode": "&#331;&#781;"
+  },
+  "L": {
+    "ipa": "ɫ",
+    "unicode": "&#619;"
+  },
+  "EL": {
+    "ipa": "ɫ̩",
+    "unicode": "&#619;&#809;"
+  },
+  "R": {
+    "ipa": "ɹ",
+    "unicode": "&#633;"
+  },
+  "DX": {
+    "ipa": "ɾ",
+    "unicode": "&#638;"
+  },
+  "NX": {
+    "ipa": "ɾ̃",
+    "unicode": "&#638;&#771;"
+  },
+  "Y": {
+    "ipa": "j",
+    "unicode": "j"
+  },
+  "W": {
+    "ipa": "w",
+    "unicode": "w"
+  },
+  "Q": {
+    "ipa": "ʔ",
+    "unicode": "&#660;"
+  }
+}

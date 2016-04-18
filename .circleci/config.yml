@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: ruby:latest
+
+    steps:
+      - checkout
+
+      - run:
+          name: setup
+          command: |
+            ruby -v
+            gem install bundler
+            bin/setup
+          
+      - run:
+          name: run tests
+          command: bundle exec rspec

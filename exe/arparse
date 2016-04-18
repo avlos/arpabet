@@ -1,0 +1,54 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "optparse" # for option parsing
+require "paint" # for cli color output
+require "arpabet" # for arpabet -> ipa transliteration
+
+options = {
+  arpabet: nil,
+  encoding: nil,
+  interactive: nil
+}
+
+parser = OptionParser.new do |opts|
+  opts.banner = "Usage: parse [options]"
+  opts.on("-a", "--arpabet string", "arpabet string") do |arpabet|
+    options[:arpabet] = arpabet
+  end
+  opts.on("-i", "--interactive", "run interactively") do
+    options[:interactive] = true
+  end
+  opts.on("-e", "--encoding encoding", "ipa or unicode") do |encoding|
+    options[:encoding] = encoding
+  end
+  opts.on("-h", "--help", "Displays Help") do
+    puts opts
+    exit
+  end
+end
+parser.parse!
+
+if options[:arpabet].nil?
+  puts parser
+  exit
+end
+
+if options[:interactive]
+  print "Enter Arpabet input: "
+  options[:arpabet] = gets.chomp
+  print "Enter your encoding: "
+  options[:encoding] = gets.chomp
+end
+
+input = options[:arpabet]
+ipa = "ipa"
+unicode = "unicode"
+arpabet = Arpabet::Parser.new input
+codec = options[:encoding]
+if codec
+  puts "#{Paint[codec, :yellow]}\t: #{arpabet.public_send("to_#{codec}")}"
+else
+  puts "#{Paint[ipa, :magenta]}\t: #{arpabet.to_ipa}"
+  puts "#{Paint[unicode, :cyan]}\t: #{arpabet.to_unicode}"
+end
