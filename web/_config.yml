@@ -1,7 +1,7 @@
 title: arpabet
 email: operations@avlos.io
 description: >
-  a gem to parse arpabet
+  The ARPAbet gem allows you to convert notations from ARPAbet to Internation Phonetic Alphabet (IPA).
 baseurl: "/arpabet"
 url: "https://gems.avlos.tech/arpabet/"
 show_downloads: true

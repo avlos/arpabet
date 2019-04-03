@@ -6,41 +6,48 @@ layout: gem_layout
 
 [![CircleCI](https://circleci.com/gh/avlos/arpabet.svg?style=svg)](https://circleci.com/gh/avlos/arpabet)
 
-## installation
+## Installation
 
-Add this line to your application"s Gemfile:
+Add this line to your application's Gemfile:
 
 ```ruby
 gem "arpabet"
 ```
 
-And then execute:
+and run `bundle`.
+
+In Ruby then write:
 ```ruby
-    $ bundle
+require "arpabet"
 ```
-Or install it yourself as:
+
+Or install the gem by running:
 ```ruby
-    $ gem install arpabet
+gem install arpabet
 ```
-## usage
+## Usage
 
 ```ruby
-  arpa = Arpabet::Parser.new(your_arpa_string)
+  example = "SIL_S EH0_B L_E EH0_B S_I K_I IY1_E SIL_S"
+  arpa = Arpabet::Parser.new(example)
   puts arpa.to_ipa
   puts arpa.to_unicode
 ```
 
-fire up pry try the above, or try
+You can fire up pry to try the above, or try
 the command line tool `arparse`, like so:
 
-`bundle exec arparse --help`
+`bundle exec exe/arparse -a SIL_S EH0_B L_E EH0_B S_I K_I IY1_E SIL_S`
 
-## development
+For more help on how to use the command line tool run:
+`bundle exec exe/arparse --help`
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+## Development
 
-To install this gem onto your local machine, run `bundle exec rake install`.
+After checking out the repo, run `bin/setup` to install dependencies in a vendor directory. You then run `bin/console` for an interactive prompt that will allow you to experiment with the code.
 
-## contributing
+To install this gem on your local machine, run `bundle exec rake install`.
+
+## Contributing
 
 Bug reports and pull requests are welcome on <a href="https://github.com/avlos/arpabet">Avlos/arpabet</a>.
