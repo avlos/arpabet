@@ -1,6 +1,6 @@
 # ARPAbet [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8ecbc76da0ef462c93078dd3ff2a4f79)](https://www.codacy.com/app/DemetraSkl/arpabet?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=avlos/arpabet&amp;utm_campaign=Badge_Grade) [![CircleCI](https://circleci.com/gh/avlos/arpabet.svg?style=svg)](https://circleci.com/gh/avlos/arpabet)
 
-The ARPAbet gem allows you to convert notations from [ARPAbet](https://en.wikipedia.org/wiki/ARPABET) to [Internation Phonetic Alphabet (IPA)](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
+The ARPAbet gem allows you to convert notations from [ARPAbet](https://en.wikipedia.org/wiki/ARPABET) to [International Phonetic Alphabet (IPA)](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
 ## Installation
 
