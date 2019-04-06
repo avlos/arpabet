@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = "~> 2.2"
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "jekyll", "~> 3.4"
-  spec.add_development_dependency "jekyll-theme-minimal", "~> 0.0.4"
+  spec.add_development_dependency "jekyll-theme-minimal", "~> 0.1.1"
   spec.add_development_dependency "paint", "~> 2.0"
   spec.add_development_dependency "pry", "~> 0.10"
   spec.add_development_dependency "rake", "~> 12.3"
